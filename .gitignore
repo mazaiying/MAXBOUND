@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.so
+*.npy
+*.npz
+build_sm*/
+data_mv/
+raw_beir/
+colbertv2/
+logs/

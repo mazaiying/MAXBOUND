@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "git_commit": "uncommitted",
+    "seed": 2027,
+    "timestamp": "2026-11-26T00:17:36.594397"
+  },
+  "records": [
+    {
+      "gpu0": {
+        "device_id": 0,
+        "name": "NVIDIA GeForce RTX 4080",
+        "sm": "8.9",
+        "vram_gb": 15.57,
+        "sm_count": 76,
+        "hbm_bw_gbs": 597.86,
+        "fp16_tflops": 89.91,
+        "pcie_h2d_gbs": 12.23,
+        "pcie_d2h_gbs": 12.42
+      },
+      "gpu1": {
+        "device_id": 1,
+        "name": "NVIDIA A100 80GB PCIe",
+        "sm": "8.0",
+        "vram_gb": 79.25,
+        "sm_count": 108,
+        "hbm_bw_gbs": 1650.0,
+        "fp16_tflops": 197.52,
+        "pcie_h2d_gbs": 12.27,
+        "pcie_d2h_gbs": 13.06
+      },
+      "cross_gpu": {
+        "can_p2p_0_to_1": false,
+        "can_p2p_1_to_0": false,
+        "tau_pinned_transfer_us": {
+          "B_1_us": 47.24,
+          "B_16_us": 47.4,
+          "B_64_us": 47.24,
+          "B_256_us": 45.25,
+          "B_1024_us": 46.28
+        }
+      }
+    }
+  ]
+}
